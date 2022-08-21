@@ -1,0 +1,3 @@
+grafana_data/
+grafana_provisioning/
+influxdb_data/
