@@ -49,13 +49,13 @@ export default function () {
   ]
   for (const page of pages) {
     const resHome = http.get(
-      "https://chista.ir",
+      "https://google.com",
       // {tags: {what: "home"}}
       );
     check(resHome, {
       "status was 200": (r) => r.status == 200,
     });
-    const resPage = http.get("https://chista.ir" + page);
+    const resPage = http.get("https://google.com" + page);
     check(resPage, {
       "status was 200": (r) => r.status == 200,
     });
